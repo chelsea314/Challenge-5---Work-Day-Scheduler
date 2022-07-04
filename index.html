@@ -22,7 +22,7 @@
     <title>Work Day Scheduler</title>
   </head>
 
-  <body>
+  <body id="body">
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
@@ -30,104 +30,13 @@
     </header>
 
 
-  <main class="container-fluid">
-    <div class="row time-block" id="timeBlock">
-      <div class="input-group">
-        <div class="col-12 col-md-1 p-0 justify-content-end input-group-prepend">
-          <label class="input-group-text hour" for="inputGroupSelect01">9AM</label>
-        </div>
-        <div class="col-12 col-md-10 p-0 ">
-           <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-        </div>
-        <div class="col-12 col-md-1 p-0 input-group-append">
-          <button class="btn btn-outline-secondary saveBtn" type="button" id="button-addon2">Save</button>
-        </div>
-      </div>
-    </div>
+    <div class="container" id="timeBlock"></div>
 
-    <!-- <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">10AM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div>
 
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">11AM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div>
-
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">12PM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div>
-
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">1PM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div>
-
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">2PM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div>
-
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">3PM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div>
-
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">4PM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div>
-
-    <div class="input-group">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01">5PM</label>
-      </div>
-      <input type="text" class="form-control" placeholder="Enter Task" aria-label="Recipient's username" aria-describedby="button-addon2">
-      <div class="input-group-append">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Save</button>
-      </div>
-    </div> -->
-  </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src = "assets/js/script.js"></script>
+
   </body>
 </html>
